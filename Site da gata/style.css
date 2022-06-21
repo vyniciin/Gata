@@ -1,0 +1,183 @@
+body{
+    /*cor do site*/
+    background-image: linear-gradient(210deg,#f23876, #f8aeba);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+
+
+
+}
+header{
+    margin: auto;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    transition:all .5s ease-in-out;
+    color:#f06392;
+
+  
+    
+}
+.nav-link:hover{ 
+    text-decoration:underline ;
+}
+.title{
+    text-shadow: 2px 2px 2px rgb(79, 1, 41);
+    text-align: center;
+}
+.title2{
+    text-align: center;
+}
+main{
+    /*cor e sombra da box*/
+    background-color:white;
+    box-shadow: 2px 2px 2px rgb(157, 31, 52); 
+    /*Tamanho da box*/
+    height: 500px;
+    width: 500px;
+    /*borda e posição da box*/
+    margin: auto;
+    border-radius: 5px;
+    
+   
+}
+.img{
+    background-image: url("./img/gata.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50%;
+    width:150px;
+    height:150px;
+    border: 5px solid rgb(164, 6, 96); 
+    display:block;
+    margin-left:  auto;
+    margin-right: auto;
+    transition-duration:0.6s;
+    transform-origin: 0% 0%
+
+    
+}
+.img:hover{
+    border-radius: 0;
+    height:450px;
+    width:450px;
+    transition-duration: 0.5s;
+    
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:rgba(3, 3, 3, 0.758);
+
+}
+.texto{
+    margin-left: 10px;
+}
+footer{
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(224, 47, 109);
+
+}
+
+/* From uiverse.io */
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: 15px;
+    font-family: inherit;
+   }
+   
+button.learn-more {
+    width: 12rem;
+    height: auto;
+}
+   
+button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #a3005f;
+    border-radius: 1.625rem;
+}
+   
+button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+   
+button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+   
+button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+   
+button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #f06392;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+   
+button:hover .circle {
+    width: 100%;
+}
+   
+button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+}
+   
+button:hover .button-text {
+    color: #fff;
+}
+.copyright a{
+    text-decoration: none;
+    color: white;
+}
+.copyright a:hover{
+    color:rgb(89, 89, 89);
+}
